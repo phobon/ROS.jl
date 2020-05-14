@@ -14,6 +14,7 @@ include("rospy.jl")
 include("pubsub.jl")
 include("services.jl")
 include("callbacks.jl")
+include("tf.jl")
 
 function __init__()
     #Put julia's ARGS into python's so remappings will work
